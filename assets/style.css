@@ -1,0 +1,210 @@
+/* ==============================
+   GLOBAL APP STYLE
+============================== */
+
+body {
+    background-color: #f5f9ff;
+}
+
+/* Main Streamlit container */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ==============================
+   HEADINGS
+============================== */
+
+h1 {
+    font-size: 45px !important;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+/* ==============================
+   SIDEBAR
+============================== */
+
+section[data-testid="stSidebar"] {
+    background: #eef6ff;
+}
+
+section[data-testid="stSidebar"] h1 {
+    font-size: 28px !important;
+}
+
+/* ==============================
+   WEATHER METRIC CARDS
+============================== */
+
+.weather-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+/* Streamlit Metric Box */
+[data-testid="stMetric"] {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+/* ==============================
+   WEATHER SUMMARY CARD
+============================== */
+
+.weather-summary {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 25px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.weather-summary h2 {
+    font-size: 32px;
+}
+
+.weather-temperature {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.weather-condition {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* ==============================
+   BUTTON STYLE
+============================== */
+
+.stButton button {
+    width: 100%;
+    border-radius: 12px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ==============================
+   INPUT BOX
+============================== */
+
+.stTextInput input {
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* ==============================
+   FORECAST SECTION
+============================== */
+
+.stImage {
+    border-radius: 15px;
+}
+
+/* Divider */
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* ==============================
+   HISTORY TABLE
+============================== */
+
+[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+/* ==============================
+   STATISTICS PAGE
+============================== */
+
+[data-testid="stPlotlyChart"] {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+/* ==============================
+   INFO / SUCCESS BOX
+============================== */
+
+.stAlert {
+    border-radius: 15px;
+}
+
+/* ==============================
+   MOBILE RESPONSIVE
+============================== */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px !important;
+    }
+
+    .weather-temperature {
+        font-size: 38px;
+    }
+}
+
+/* ==============================
+   FORECAST CARDS
+============================== */
+
+.forecast-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 18px;
+    margin: 12px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #3B82F6;
+    transition: 0.3s;
+}
+
+.forecast-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.forecast-date {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E3A8A;
+    margin-bottom: 10px;
+}
+
+.forecast-temp {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2563EB;
+}
+
+.forecast-info {
+    font-size: 16px;
+    color: #555;
+    margin-top: 6px;
+}
