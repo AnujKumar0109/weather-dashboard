@@ -214,6 +214,8 @@ if st.button("🔍 Search"):
 
                         st.write(f"💧 **Humidity:** {humidity}%")
 
+                    st.divider()
+
         else:
 
             st.warning("Forecast data not available")
