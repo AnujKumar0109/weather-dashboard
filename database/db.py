@@ -1,19 +1,10 @@
-import os
 import psycopg2
-from dotenv import load_dotenv
-
-load_dotenv()
+import streamlit as st
 
 
 def get_connection():
 
-    return psycopg2.connect(
-        host=os.getenv("DB_HOST"),
-        database=os.getenv("DB_NAME"),
-        user=os.getenv("DB_USER"),
-        password=os.getenv("DB_PASSWORD"),
-        port=os.getenv("DB_PORT")
-    )
+    return psycopg2.connect(st.secrets["DATABASE_URL"])
 
 
 def save_weather(data):
@@ -38,15 +29,15 @@ def save_weather(data):
             data["name"],
             data["main"]["temp"],
             data["main"]["humidity"],
-            data["weather"][0]["description"]
-        )
+            data["weather"][0]["description"],
+        ),
     )
 
     conn.commit()
     cursor.close()
     conn.close()
-    
-    
+
+
 def get_weather_history():
 
     conn = get_connection()
@@ -69,8 +60,7 @@ def get_weather_history():
     cursor.close()
     conn.close()
 
-    return rows    
-
+    return rows
 
 
 def get_statistics():
