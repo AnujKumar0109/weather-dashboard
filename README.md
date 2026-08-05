@@ -10,12 +10,7 @@
 ![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge\&logo=supabase)
 ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-orange?style=for-the-badge)
 
-![License](https://img.shields.io/github/license/AnujKumar0109/weather-dashboard?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/AnujKumar0109/weather-dashboard?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/AnujKumar0109/weather-dashboard?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/AnujKumar0109/weather-dashboard?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/AnujKumar0109/weather-dashboard?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/AnujKumar0109/weather-dashboard?style=for-the-badge)
+
 
 </div>
 
