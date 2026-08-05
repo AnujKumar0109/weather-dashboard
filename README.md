@@ -36,15 +36,68 @@ This project showcases practical implementation of:
 
 ## 🚀 Live Demo
 
-> **Coming Soon**
+The application is deployed on **Streamlit Community Cloud** and is publicly accessible.
 
-After deployment, replace this section with your Streamlit application URL.
+🌐 **Live Application**
 
-Example:
+**https://weather-dashboard-igioqvelequtr43mggzn4t.streamlit.app/**
 
-```text
-https://weather-dashboard.streamlit.app
-```
+You can use the application to:
+
+* 🌍 Search weather information for any city
+* 🌡 View real-time temperature
+* 💧 Check humidity
+* 🌬 View wind speed
+* 🔽 Check atmospheric pressure
+* 💾 Store search history in PostgreSQL (Supabase)
+
+---
+
+## 🔗 Project Links
+
+### 🌐 Live Demo
+
+https://weather-dashboard-igioqvelequtr43mggzn4t.streamlit.app/
+
+### 💻 GitHub Repository
+
+https://github.com/AnujKumar0109/weather-dashboard
+
+### 👨‍💻 Author
+
+**Anuj Kumar**
+
+GitHub: https://github.com/AnujKumar0109
+
+---
+
+## 🙏 Acknowledgements
+
+This project was built using the following technologies and services:
+
+* Python
+* Streamlit
+* OpenWeatherMap API
+* PostgreSQL
+* Supabase
+* Git & GitHub
+
+Special thanks to the open-source community for providing excellent tools and documentation.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project helpful, please consider giving it a Star!
+
+**Live Demo:** https://weather-dashboard-igioqvelequtr43mggzn4t.streamlit.app/
+
+**GitHub Repository:** https://github.com/AnujKumar0109/weather-dashboard
+
+Made with ❤️ using **Python, Streamlit, PostgreSQL, Supabase & OpenWeatherMap API**.
+
+</div>
+
 
 ---
 
