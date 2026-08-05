@@ -82,30 +82,7 @@ This project was built using the following technologies and services:
 * Supabase
 * Git & GitHub
 
-Special thanks to the open-source community for providing excellent tools and documentation.
 
----
-
-<div align="center">
-
-### ⭐ If you found this project helpful, please consider giving it a Star!
-
-**Live Demo:** https://weather-dashboard-igioqvelequtr43mggzn4t.streamlit.app/
-
-**GitHub Repository:** https://github.com/AnujKumar0109/weather-dashboard
-
-Made with ❤️ using **Python, Streamlit, PostgreSQL, Supabase & OpenWeatherMap API**.
-
-</div>
-
-
----
-
-## 📂 GitHub Repository
-
-```text
-https://github.com/AnujKumar0109/weather-dashboard
-```
 
 ---
 
